@@ -66,6 +66,5 @@ class EntriesController < ApplicationController
     def entry_params
       params.require(:entry).permit(:meal_type, :calories, :proteins, :carbohydrates,
          :fats, :category_id)
-  t dropdown. Add JS, UI updates)
     end
 end

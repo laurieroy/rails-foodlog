@@ -47,18 +47,17 @@
     </div>
   </div>
 
-  <%# <div class="actions">
-    <%= form.submit class: "button is-success" %>
+  <%# <%= select_datetime Time.now -%> 
 
 
   <div class="field is-grouped">
-  <div class="control">
-    <%= form.submit class: "button is-success" %>
+    <div class="control">
+      <%= form.submit class: "button is-success" %>
+    </div>
+    <div class="control">
+      <%= link_to 'Cancel', entries_path, class: "button is-link is-light" %>
+    </div>
   </div>
-  <div class="control">
-    <%= link_to 'Cancel', entries_path, class: "button is-link is-light" %>
-  </div>
-</div>
 <% end %>
   
   
