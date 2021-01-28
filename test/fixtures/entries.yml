@@ -6,6 +6,7 @@ breakfast:
   proteins: 20
   carbohydrates: 30
   fats: 10
+  category: "Low-Carb"
 
 lunch:
   meal_type: "Lunch"
@@ -13,6 +14,7 @@ lunch:
   proteins: 15
   carbohydrates: 30
   fats: 10
+  category: "Low-Carb"
 
 supper:
   meal_type: "Supper"
@@ -20,4 +22,5 @@ supper:
   proteins: 15
   carbohydrates: 30
   fats: 10
+  category: "Low-Carb"
 
