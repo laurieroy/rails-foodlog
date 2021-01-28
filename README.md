@@ -1,19 +1,27 @@
 # FOOD LOG
 
-This is an app to track your macros by meal and day. The macros part was a [code-along](https://www.youtube.com/watch?v=B3Fbujmgo60)
+This is an app to track your macros by meal and day. It was built as a [code-along](https://www.youtube.com/watch?v=B3Fbujmgo60) by [Andy Leverenz, web-crunch.com](https://web-crunch.com/).
 
 
-Rails:
-Ruby:
+![daily log screenshot](./app/assets/images/screenshots/daily-log.png "title-1")
+
+![log meal screenshot](./app/assets/images/screenshots/breakfast-log.png "title-2")
+
+Rails: 6.1.1
+
+Ruby: 2.6.3p62
+
 UI: Bulma with a Nucleo icon
 
-I learned some new things (again) in this tutorial:
+
+## I learned some new things in this tutorial:
 
 * Use Bulma UI
-* passing a variable along with the form in render
-* content_for
-* How to add an initializer, here we did one forthe time format.
-* pluck - pulls out an entry for each database column that you can then do an operation on, such as sum calories for day
+* Different way to pass a variable along with the form in render
+* Content_for
+* How to add an initializer, here we did one for the time format.
+* Using Ruby's Strftime
+* Pluck - pulls out an entry for each database column that you can then do an operation on, such as sum calories for day
 * Have a select drop-down
 
 ## To use locally: 
@@ -27,6 +35,8 @@ I learned some new things (again) in this tutorial:
 
 commit defadedf1e1b88ea4b0c was the end of the tutorial
 
-TODO:
+TODO/Issues:
 * Add pagination to archive
 * Complete testing
+* Add Category routes
+* Have to choose a category
